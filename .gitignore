@@ -1,0 +1,8 @@
+venv/
+.venv/
+artifacts/raw/
+artifacts/processed/
+artifacts/model/
+artifacts/model_checkpoints/
+artifacts/weights/
+MLOps_Project_2.egg-info/

@@ -1,0 +1,15 @@
+2025-05-20 13:53:38,496 - INFO - Data processing intialised
+2025-05-20 13:53:39,168 - INFO - Data loaded successfully
+2025-05-20 13:53:39,306 - INFO - Filtered users with less than 400 ratings
+2025-05-20 13:53:39,927 - INFO - Scaled ratings to 0-1 range
+2025-05-20 13:53:40,545 - INFO - user2user_encoded saved successfully in processed directory
+2025-05-20 13:53:40,550 - INFO - user2user_decoded saved successfully in processed directory
+2025-05-20 13:53:40,570 - INFO - anime2anime_encoded saved successfully in processed directory
+2025-05-20 13:53:40,590 - INFO - anime2anime_decoded saved successfully in processed directory
+2025-05-20 13:53:40,627 - INFO - X_train_array saved successfully in processed directory
+2025-05-20 13:53:40,628 - INFO - X_test_array saved successfully in processed directory
+2025-05-20 13:53:40,644 - INFO - y_train saved successfully in processed directory
+2025-05-20 13:53:40,644 - INFO - y_test saved successfully in processed directory
+2025-05-20 13:53:43,544 - INFO - Artifacts and train/test data saved successfully
+2025-05-20 13:53:47,127 - INFO - Anime data saved successfully
+2025-05-20 13:53:47,129 - INFO - Data processing completed successfully

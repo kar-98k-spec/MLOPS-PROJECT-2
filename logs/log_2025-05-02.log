@@ -1,0 +1,10 @@
+2025-05-02 15:44:02,285 - INFO - Successfully read YAML file
+2025-05-02 15:44:02,285 - INFO - Data ingestion process started....
+2025-05-02 15:44:41,636 - INFO - Successfully read YAML file
+2025-05-02 15:44:41,636 - INFO - Data ingestion process started....
+2025-05-02 15:44:41,636 - INFO - Starting data ingestion process...
+2025-05-02 15:44:43,090 - INFO - Downloaded anime.csv from GCP bucket to artifacts/raw\anime.csv
+2025-05-02 15:44:44,134 - INFO - Downloaded anime_with_synopsis.csv from GCP bucket to artifacts/raw\anime_with_synopsis.csv
+2025-05-02 15:45:52,959 - INFO - Downloaded only 5M rows from animelist.csv from GCP bucket to artifacts/raw\animelist.csv
+2025-05-02 15:45:52,973 - INFO - Data ingestion process completed successfully.
+2025-05-02 15:45:52,973 - INFO - Data ingestion process finished.

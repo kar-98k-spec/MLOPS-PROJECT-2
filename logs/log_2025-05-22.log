@@ -1,0 +1,11 @@
+2025-05-22 16:52:49,968 - INFO - Model training initialized
+2025-05-22 16:52:49,996 - INFO - Data loaded successfully
+2025-05-22 16:52:50,009 - INFO - Successfully read YAML file
+2025-05-22 16:52:50,009 - INFO - Model configuration loaded successfully from config.yaml
+2025-05-22 16:52:50,059 - INFO - Model compiled successfully
+2025-05-22 16:53:13,120 - INFO - Model trained successfully
+2025-05-22 16:53:13,120 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-05-22 16:53:13,150 - INFO - Model saved successfully to artifacts/model\model.h5
+2025-05-22 16:53:13,152 - INFO - Weights extracted successfully from layer: user_embedding
+2025-05-22 16:53:13,160 - INFO - Weights extracted successfully from layer: anime_embedding
+2025-05-22 16:53:13,167 - INFO - User and anime weights saved successfully to artifacts/weights\user_weights.pkl and artifacts/weights\anime_weights.pkl

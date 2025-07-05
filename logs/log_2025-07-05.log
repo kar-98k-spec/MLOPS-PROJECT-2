@@ -1,0 +1,37 @@
+2025-07-05 14:56:44,558 - INFO - Model training & Comet-ML initialized
+2025-07-05 14:56:44,621 - INFO - Data loaded successfully
+2025-07-05 14:56:44,642 - INFO - Successfully read YAML file
+2025-07-05 14:56:44,642 - INFO - Model configuration loaded successfully from config.yaml
+2025-07-05 14:56:44,744 - INFO - Model compiled successfully
+2025-07-05 14:57:07,199 - INFO - Model trained successfully
+2025-07-05 14:57:07,199 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-07-05 14:57:07,246 - INFO - Model saved successfully to artifacts/model\model.h5
+2025-07-05 14:57:07,246 - INFO - Weights extracted successfully from layer: user_embedding
+2025-07-05 14:57:07,246 - INFO - Weights extracted successfully from layer: anime_embedding
+2025-07-05 14:57:07,311 - INFO - User and anime weights saved successfully to artifacts/weights\user_weights.pkl and artifacts/weights\anime_weights.pkl
+2025-07-05 15:31:51,548 - INFO - Data processing intialised
+2025-07-05 15:31:52,234 - INFO - Data loaded successfully
+2025-07-05 15:31:52,373 - INFO - Filtered users with less than 400 ratings
+2025-07-05 15:31:53,005 - INFO - Scaled ratings to 0-1 range
+2025-07-05 15:31:53,532 - INFO - user2user_encoded saved successfully in processed directory
+2025-07-05 15:31:53,537 - INFO - user2user_decoded saved successfully in processed directory
+2025-07-05 15:31:53,549 - INFO - anime2anime_encoded saved successfully in processed directory
+2025-07-05 15:31:53,578 - INFO - anime2anime_decoded saved successfully in processed directory
+2025-07-05 15:31:53,607 - INFO - X_train_array saved successfully in processed directory
+2025-07-05 15:31:53,607 - INFO - X_test_array saved successfully in processed directory
+2025-07-05 15:31:53,622 - INFO - y_train saved successfully in processed directory
+2025-07-05 15:31:53,622 - INFO - y_test saved successfully in processed directory
+2025-07-05 15:31:56,748 - INFO - Artifacts and train/test data saved successfully
+2025-07-05 15:32:00,433 - INFO - Anime data saved successfully
+2025-07-05 15:32:00,434 - INFO - Data processing completed successfully
+2025-07-05 15:32:05,581 - INFO - Model training & Comet-ML initialized
+2025-07-05 15:32:05,659 - INFO - Data loaded successfully
+2025-07-05 15:32:05,706 - INFO - Successfully read YAML file
+2025-07-05 15:32:05,706 - INFO - Model configuration loaded successfully from config.yaml
+2025-07-05 15:32:05,761 - INFO - Model compiled successfully
+2025-07-05 15:32:29,603 - INFO - Model trained successfully
+2025-07-05 15:32:29,603 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-07-05 15:32:29,634 - INFO - Model saved successfully to artifacts/model\model.h5
+2025-07-05 15:32:29,638 - INFO - Weights extracted successfully from layer: user_embedding
+2025-07-05 15:32:29,643 - INFO - Weights extracted successfully from layer: anime_embedding
+2025-07-05 15:32:29,703 - INFO - User and anime weights saved successfully to artifacts/weights\user_weights.pkl and artifacts/weights\anime_weights.pkl
