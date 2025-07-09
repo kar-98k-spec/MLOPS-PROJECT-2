@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Orbitron', sans-serif;
+  background: url('https://wallpapercave.com/wp/wp2754829.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: #fff;
+}
+
+.form-container {
+  background-color: rgba(0, 0, 0, 0.8);
+  max-width: 600px;
+  margin: 5% auto;
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: 0 0 25px #ff00c8;
+}
+
+h1 {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1.5rem;
+  text-align: center;
+  color: #ff00c8;
+  margin-bottom: 2rem;
+}
+
+label {
+  font-size: 1.2rem;
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #00fff7;
+}
+
+input {
+  width: 100%;
+  padding: 0.7rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+button {
+  background-color: #ff00c8;
+  color: white;
+  padding: 0.7rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #00fff7;
+  color: #000;
+}
+
+.results-container {
+  margin-top: 2rem;
+}
+
+.results-container h2 {
+  color: #00fff7;
+}
+
+.results-container ul {
+  list-style: none;
+  padding: 0;
+}
+
+.results-container li {
+  background: rgba(255, 0, 200, 0.2);
+  margin: 0.5rem 0;
+  padding: 0.5rem 1rem;
+  border-left: 5px solid #00fff7;
+  border-radius: 5px;
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 1.2rem;
+  }
+}
